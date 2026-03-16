@@ -1,86 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Wise Projects | AI Support Demo</title>
-
-<style>
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background:#f4f6f9;
-    margin:0;
-    padding:0;
-}
-
-.header{
-    background:#1b96ff;
-    color:white;
-    padding:30px;
-    text-align:center;
-}
-
-.container{
-    max-width:900px;
-    margin:auto;
-    margin-top:60px;
-    background:white;
-    padding:40px;
-    border-radius:10px;
-    box-shadow:0px 5px 20px rgba(0,0,0,0.1);
-}
-
-h1{
-    margin-top:0;
-}
-
-.chat-info{
-    margin-top:20px;
-    padding:20px;
-    background:#f0f7ff;
-    border-left:5px solid #1b96ff;
-}
-
-.footer{
-    text-align:center;
-    margin-top:60px;
-    padding:20px;
-    color:#777;
-}
-
-</style>
-
+    <title>Wise Projects</title>
+    <meta charset="UTF-8">
 </head>
 
 <body>
 
-<div class="header">
-<h1>Wise Projects</h1>
-<p>Salesforce Agentforce AI Chat Demo</p>
-</div>
-
-<div class="container">
-
-<h2>Welcome 👋</h2>
-
-<p>
-This page demonstrates how <b>Salesforce Agentforce Embedded Messaging</b> 
-can be integrated into an external website.
-</p>
-
-<div class="chat-info">
-💬 Click the chat bubble in the bottom right corner to start a conversation with the AI support assistant.
-</div>
-
-</div>
-
-<div class="footer">
-© 2026 Wise Projects | AI Customer Support Demo
-</div>
-
+<h1>Hello, World!</h1>
+<p>This is Wise Projects test ground.</p>
+<p>Access configured v2</p>
 
 <script type='text/javascript'>
 function initEmbeddedMessaging() {
@@ -95,7 +24,6 @@ function initEmbeddedMessaging() {
                 scrt2URL: 'https://orgfarm-e20618dd59-dev-ed.develop.my.salesforce-scrt.com'
             }
         );
-
     } catch (err) {
         console.error('Error loading Embedded Messaging:', err);
     }
